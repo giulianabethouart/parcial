@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #66ccff;
+}
+
+section {
+     background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+section h2 {
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 1rem;
+    color: #66ccff;
+}
+
+section p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+iframe {
+    border-radius: 1rem;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
