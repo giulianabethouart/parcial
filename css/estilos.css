@@ -7,7 +7,7 @@ body {
     background-image: url(../img/fondo.png);
     background-size: cover;
     background-attachment: fixed;
-    color: white;
+   color: #f5f5f5;
     font-family: Arial, sans-serif;
 }
 
